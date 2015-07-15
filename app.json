@@ -1,0 +1,14 @@
+{
+  "name":"wammu",
+  "description":"",
+  "scripts":{
+    "postdeploy":"bin/stup",
+    "pr-predestroy":"bin/stupDes"
+  },
+  "env":{
+    "anc":{
+      "required":true
+    }
+  },
+  "addons":[]
+}
